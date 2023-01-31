@@ -1,0 +1,14 @@
+{
+  "name": "jsdoc-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/test.js",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.11"
+  }
+}
