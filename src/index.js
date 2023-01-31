@@ -51,7 +51,9 @@ export class Todo {
    * 아이템을 추가, 제거, 수정합니다.
    * @param {number} id - item 상태를 변경할 id
    */
-  items(id) {}
+  items(id) {
+    return new Items(id);
+  }
 }
 
 /**
@@ -88,7 +90,9 @@ class Items {
   /**
    * 태그의 상태를 수정합니다.
    */
-  tags() {}
+  tags() {
+    return new Tags(this.id);
+  }
 }
 
 /**
